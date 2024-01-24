@@ -21,24 +21,13 @@ mkdir source_documents
 python ingest.py
 ```
 
-Output should look like this:
-```shell
-Creating new vectorstore
-Loading documents from source_documents
-Loading new documents: 100%|██████████████████████| 1/1 [00:01<00:00,  1.99s/it]
-Loaded 235 new documents from source_documents
-Split into 1268 chunks of text (max. 500 tokens each)
-Creating embeddings. May take some minutes...
-Ingestion complete! You can now run privateGPT.py to query your documents
-```
-
 #### Step 6: Run this command (use python3 if on mac)
 ```
 python privateGPT.py
 ```
 
 ##### Play with your docs
-Enter a query: How many locations does WeWork have?
+Enter a query: 
 
 
 ### Try with a different model:
